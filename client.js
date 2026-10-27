@@ -37,16 +37,13 @@ window.__ModuleLoader__.load({
         min-width: 0;
         max-width: none;
         border: 1px solid var(--dsw-alias-border-l2);
+        background: var(--dsw-alias-bg-base);
+        color: inherit;
         padding: .45em .8em;
         text-align: left !important;
       }
       [data-chat-flow-kind="assistant-step"] div > table th {
-        background: var(--dsw-alias-bg-layer-2);
         font-weight: 600;
-      }
-      [data-chat-flow-kind="assistant-step"] div > table tbody tr:nth-child(even) {
-        background: var(--dsw-alias-bg-layer-2);
-        opacity: .7;
       }
       [data-chat-flow-kind="assistant-step"] div > table code {
         background: var(--dsw-alias-bg-layer-2);
